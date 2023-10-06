@@ -30,9 +30,11 @@ jobs:
 
             - name: Commit changes
               if: steps.check_changes.outputs.changes == 'true'
-              run: |
-                  git config --global user.email "github-actions[bot]@users.noreply.github.com"
-                  git config --global user.name "GitHub Actions"
-                  git add dist
-                  git commit -m "ci: update dist [skip ci]"
-                  git push
+              uses: stefanzweifel/git-auto-commit-action@v4
+              with:
+                    commit_message: "ci: update dist [skip ci]"
+                    commit_options: "--no-verify"
+                    file_pattern: dist/*
+                    commit_user_name: "GitHub Actions"
+                    commit_user_email: "github-actions[bot]@users.noreply.github.com"
+                    github_token: ${{ secrets.GITHUB_TOKEN }}
