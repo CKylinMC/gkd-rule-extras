@@ -1,0 +1,19 @@
+{
+    "id": "APP_PACKAGE_NAME_HERE",
+    "name": "APP_NAME_HERE",
+    "groups": [
+        {
+            "key": 1,
+            "name": "RULE_NAME_HERE",
+            "activityIds": [
+                "APP_ACTIVITY_NAME_HERE"
+            ],
+            "rules": [
+                {
+                    "matches": "CSS_SELECTOR_HERE",
+                    "snapshotUrls": "https://gkd-kit.gitee.io/import/12505365"
+                }
+            ]
+        }
+    ]
+}

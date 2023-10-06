@@ -4,7 +4,7 @@
   "description": "Extra rules for GKD-KIT",
   "main": "build.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build.js"
   },
   "author": "",
   "license": "ISC"
