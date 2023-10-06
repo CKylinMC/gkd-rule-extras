@@ -1,0 +1,19 @@
+{
+    "id": "com.sfacg",
+    "name": "菠萝包轻小说",
+    "groups": [
+        {
+            "key": 1,
+            "name": "启动广告",
+            "activityIds": [
+                "com.sf.ui.launcher.LauncherActivity"
+            ],
+            "rules": [
+                {
+                    "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > TextView[id=`com.sfacg:id/tv_jump`]",
+                    "snapshotUrls": "https://gkd-kit.gitee.io/import/12826903"
+                }
+            ]
+        }
+    ]
+}
