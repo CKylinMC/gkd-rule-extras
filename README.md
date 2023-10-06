@@ -1,2 +1,2 @@
 # gkd-rule-extras
-Extra rules for GKD-KIT
+自用的不在内置规则列表的补充规则
