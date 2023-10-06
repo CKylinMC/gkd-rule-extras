@@ -1,0 +1,38 @@
+name: Build and Commit Changes
+
+on:
+    push:
+        branches: [main]
+    workflow_dispatch:
+
+jobs:
+    build:
+        name: Build rules list
+        runs-on: ubuntu-latest
+        if: ${{!contains(github.event.head_commit.message, '[skip ci]')}}
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+
+            - name: Setup Node.js environment
+              uses: actions/setup-node@v2
+              with:
+                  node-version: '14.x'
+
+            - name: Build project
+              run: npm run build
+
+            - name: Check for changes in dist folder
+              id: check_changes
+              run: |
+                  git diff --quiet HEAD -- dist || echo "::set-output name=changes::true"
+
+            - name: Commit changes
+              if: steps.check_changes.outputs.changes == 'true'
+              run: |
+                  git config --global user.email "github-actions[bot]@users.noreply.github.com"
+                  git config --global user.name "GitHub Actions"
+                  git add dist
+                  git commit -m "ci: update dist [skip ci]"
+                  git push
