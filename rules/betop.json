@@ -1,0 +1,19 @@
+{
+    "id": "com.zuoyou.center",
+    "name": "北通游戏厅",
+    "groups": [
+        {
+            "key": 1,
+            "name": "启动弹窗",
+            "activityIds": [
+                "com.zuoyou.center.ui.activity.MainActivity"
+            ],
+            "rules": [
+                {
+                    "matches": "FrameLayout > FrameLayout > FrameLayout > RelativeLayout > ImageView[id=`com.zuoyou.center:id/iv_close_icon`]",
+                    "snapshotUrls": "https://gkd-kit.gitee.io/import/12827322"
+                }
+            ]
+        }
+    ]
+}
