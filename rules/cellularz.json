@@ -1,0 +1,19 @@
+{
+    "id": "make.more.r2d2.cellular_z",
+    "name": "菠萝包轻小说",
+    "groups": [
+        {
+            "key": 1,
+            "name": "启动广告",
+            "activityIds": [
+                "make.more.r2d2.cellular_z.activity.SplashGMActivity"
+            ],
+            "rules": [
+                {
+                    "matches": "FrameLayout > LinearLayout > FrameLayout > LinearLayout > FrameLayout > FrameLayout > FrameLayout > RelativeLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > LinearLayout > TextView[text=`跳过`]",
+                    "snapshotUrls": "https://gkd-kit.gitee.io/import/12827258"
+                }
+            ]
+        }
+    ]
+}

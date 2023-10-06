@@ -3,8 +3,27 @@
   "name": "CKy 额外规则",
   "author": "CKylinMC",
   "supportUri": "https://github.com/CKylinMC/gkd-rule-extras",
-  "version": 9,
+  "version": 10,
   "apps": [
+    {
+      "id": "make.more.r2d2.cellular_z",
+      "name": "菠萝包轻小说",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告",
+          "activityIds": [
+            "make.more.r2d2.cellular_z.activity.SplashGMActivity"
+          ],
+          "rules": [
+            {
+              "matches": "FrameLayout > LinearLayout > FrameLayout > LinearLayout > FrameLayout > FrameLayout > FrameLayout > RelativeLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > LinearLayout > TextView[text=`跳过`]",
+              "snapshotUrls": "https://gkd-kit.gitee.io/import/12827258"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "com.sfacg",
       "name": "菠萝包轻小说",
