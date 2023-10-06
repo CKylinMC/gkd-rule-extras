@@ -49,7 +49,7 @@ function nodeValidator(node) {
         for (const rule of group.rules) {
             if (anyFalse(
                 checkSubProperty(rule, 'matches', (matches) => typeof matches === 'string'),
-                checkSubProperty(rule, 'snapshotUrls', (snapshotUrls) =>typeof(snapshotUrls)==='string' || Array.isArray(snapshotUrls))
+                checkSubProperty(rule, 'snapshotUrls', (snapshotUrls) => typeof (snapshotUrls) === 'string' || Array.isArray(snapshotUrls))
             )) {
                 return false;
             }
@@ -57,12 +57,6 @@ function nodeValidator(node) {
     }
     return true;
 }
-
-base.version++;
-
-console.log('Bumping version to: ', base.version);
-
-fs.writeFileSync("./base.json", JSON.stringify(base, null, 2));
 
 const rulesFiles = fs.readdirSync(rulesFolder);
 const rules = [];
@@ -77,6 +71,27 @@ for (const file of rulesFiles) {
     } catch (error) {
         console.error('Import Failed: ', error);
     }
+}
+
+const oldFiles = fs.readdirSync(targetFolder);
+
+const oldFile = oldFiles.find((file) => file.endsWith('.json'));
+
+if (oldFile) {
+    const oldFileContent = require(path.resolve(__dirname, targetFolder, oldFile));
+    const oldRules = oldFileContent.apps;
+
+    if (JSON.stringify(oldRules) !== JSON.stringify(rules)) {
+        base.version++;
+        console.log('Bumping version to: ', base.version);
+        fs.writeFileSync("./base.json", JSON.stringify(base, null, 2));
+    } else {
+        console.log('No change in rules, version not bumped');
+    }
+} else {
+    base.version++;
+    console.log('Bumping version to: ', base.version);
+    fs.writeFileSync("./base.json", JSON.stringify(base, null, 2));
 }
 
 base.apps = rules;
