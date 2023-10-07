@@ -38,3 +38,12 @@ jobs:
                     add: dist/*
                     author_name: "GitHub Actions"
                     author_email: "github-actions[bot]@users.noreply.github.com"
+
+            - uses: ckylinmc/minio-upload-action@v1.2
+              with:
+                endpoint: ${{ secrets.AWS_ENDPOINT }}
+                accesskey: ${{secrets.AWS_ACCESS_KEY_ID}}
+                secretkey: ${{secrets.AWS_SECRET_ACCESS_KEY}}
+                bucketname: ${{ secrets.AWS_S3_BUCKET }}
+                source: './dist/cky-gkd-rules.json'
+                dest: '/gkd-rules/cky-gkd-rules.json'
