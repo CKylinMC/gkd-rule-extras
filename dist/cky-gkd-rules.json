@@ -3,7 +3,7 @@
   "name": "CKy 额外规则",
   "author": "CKylinMC",
   "supportUri": "https://github.com/CKylinMC/gkd-rule-extras",
-  "version": 15,
+  "version": 16,
   "apps": [
     {
       "id": "com.zuoyou.center",
@@ -57,6 +57,25 @@
             {
               "matches": "FrameLayout > LinearLayout > FrameLayout > LinearLayout > FrameLayout > FrameLayout > FrameLayout > RelativeLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > LinearLayout > TextView[text=`跳过`]",
               "snapshotUrls": "https://gkd-kit.gitee.io/import/12827258"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.kuangxiangciweimao.novel",
+      "name": "刺猬猫阅读",
+      "groups": [
+        {
+          "key": 1,
+          "name": "主页节日弹窗",
+          "activityIds": [
+            "com.kuangxiangciweimao.novel.activity.frame.MainFrameActivity"
+          ],
+          "rules": [
+            {
+              "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > FrameLayout > RelativeLayout > RelativeLayout > ImageView[id=`com.kuangxiangciweimao.novel:id/imgclose`]",
+              "snapshotUrls": "https://gkd-kit.gitee.io/import/12836699"
             }
           ]
         }
