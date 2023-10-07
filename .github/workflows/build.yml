@@ -10,6 +10,8 @@ jobs:
         name: Build rules list
         runs-on: ubuntu-latest
         if: ${{!contains(github.event.head_commit.message, '[skip ci]')}}
+        permissions:
+            contents: write
 
         steps:
             - name: Checkout code
