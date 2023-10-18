@@ -3,8 +3,27 @@
   "name": "CKy 额外规则",
   "author": "CKylinMC",
   "supportUri": "https://github.com/CKylinMC/gkd-rule-extras",
-  "version": 15,
+  "version": 16,
   "apps": [
+    {
+      "id": "com.bankofbeijing.mobilebanking",
+      "name": "北京银行",
+      "groups": [
+        {
+          "key": 1,
+          "name": "开屏广告",
+          "activityIds": [
+            "com.yitong.mobile.biz.launcher.app.guide.GuideActivity"
+          ],
+          "rules": [
+            {
+              "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > TextView[id=`com.bankofbeijing.mobilebanking:id/tv_skip`]",
+              "snapshotUrls": "https://gkd-kit.gitee.io/import/13028907"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "com.zuoyou.center",
       "name": "北通游戏厅",
@@ -19,6 +38,19 @@
             {
               "matches": "FrameLayout > FrameLayout > FrameLayout > RelativeLayout > ImageView[id=`com.zuoyou.center:id/iv_close_icon`]",
               "snapshotUrls": "https://gkd-kit.gitee.io/import/12827322"
+            }
+          ]
+        },
+        {
+          "key": 2,
+          "name": "开屏广告",
+          "activityIds": [
+            "com.zuoyou.center.ui.activity.SplashActivity"
+          ],
+          "rules": [
+            {
+              "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > FrameLayout > TextView[id=`com.zuoyou.center:id/tv_skip`]",
+              "snapshotUrls": "https://gkd-kit.gitee.io/import/13029162"
             }
           ]
         }
