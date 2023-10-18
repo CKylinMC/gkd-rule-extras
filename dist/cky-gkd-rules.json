@@ -63,6 +63,25 @@
       ]
     },
     {
+      "id": "com.kuangxiangciweimao.novel",
+      "name": "刺猬猫阅读",
+      "groups": [
+        {
+          "key": 1,
+          "name": "主页节日弹窗",
+          "activityIds": [
+            "com.kuangxiangciweimao.novel.activity.frame.MainFrameActivity"
+          ],
+          "rules": [
+            {
+              "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > FrameLayout > RelativeLayout > RelativeLayout > ImageView[id=`com.kuangxiangciweimao.novel:id/imgclose`]",
+              "snapshotUrls": "https://gkd-kit.gitee.io/import/12836699"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "com.wm.dmall",
       "name": "多点",
       "groups": [

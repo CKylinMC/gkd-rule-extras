@@ -10,6 +10,8 @@ jobs:
         name: Build rules list
         runs-on: ubuntu-latest
         if: ${{!contains(github.event.head_commit.message, '[skip ci]')}}
+        permissions:
+            contents: write
 
         steps:
             - name: Checkout code
@@ -30,11 +32,18 @@ jobs:
 
             - name: Commit changes
               if: steps.check_changes.outputs.changes == 'true'
-              uses: stefanzweifel/git-auto-commit-action@v4
+              uses: EndBug/add-and-commit@v9
               with:
-                    commit_message: "ci: update dist [skip ci]"
-                    commit_options: "--no-verify"
-                    file_pattern: dist/*
-                    commit_user_name: "GitHub Actions"
-                    commit_user_email: "github-actions[bot]@users.noreply.github.com"
-                    github_token: ${{ secrets.GITHUB_TOKEN }}
+                    message: "ci: update dist [skip ci]"
+                    add: dist/*
+                    author_name: "GitHub Actions"
+                    author_email: "github-actions[bot]@users.noreply.github.com"
+
+            - uses: ckylinmc/minio-upload-action@v1.2
+              with:
+                endpoint: ${{ secrets.AWS_ENDPOINT }}
+                accesskey: ${{secrets.AWS_ACCESS_KEY_ID}}
+                secretkey: ${{secrets.AWS_SECRET_ACCESS_KEY}}
+                bucketname: ${{ secrets.AWS_S3_BUCKET }}
+                source: './dist/cky-gkd-rules.json'
+                dest: '/gkd-rules/cky-gkd-rules.json'
