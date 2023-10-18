@@ -14,6 +14,19 @@
                     "snapshotUrls": "https://gkd-kit.gitee.io/import/12827322"
                 }
             ]
+        },
+        {
+            "key": 2,
+            "name": "开屏广告",
+            "activityIds": [
+                "com.zuoyou.center.ui.activity.SplashActivity"
+            ],
+            "rules": [
+                {
+                    "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > FrameLayout > TextView[id=`com.zuoyou.center:id/tv_skip`]",
+                    "snapshotUrls": "https://gkd-kit.gitee.io/import/13029162"
+                }
+            ]
         }
     ]
 }

@@ -1,0 +1,19 @@
+{
+    "id": "com.bankofbeijing.mobilebanking",
+    "name": "北京银行",
+    "groups": [
+        {
+            "key": 1,
+            "name": "开屏广告",
+            "activityIds": [
+                "com.yitong.mobile.biz.launcher.app.guide.GuideActivity"
+            ],
+            "rules": [
+                {
+                    "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > TextView[id=`com.bankofbeijing.mobilebanking:id/tv_skip`]",
+                    "snapshotUrls": "https://gkd-kit.gitee.io/import/13028907"
+                }
+            ]
+        }
+    ]
+}
