@@ -28,7 +28,7 @@ jobs:
             - name: Check for changes in dist folder
               id: check_changes
               run: |
-                  git diff --quiet HEAD -- dist || echo "::set-output name=changes::true"
+                  git diff --quiet HEAD -- dist README.md || echo "::set-output name=changes::true"
 
             - name: Commit changes
               if: steps.check_changes.outputs.changes == 'true'
