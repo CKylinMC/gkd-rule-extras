@@ -25,4 +25,17 @@ npm run build
 
 <!--[DO NOT MODIFY ANYTHING BELOW]-->
 <!--DYNAMIC-->
+## 补充规则一览表
+| 应用 | 包名 | 规则 |
+| --- | --- | --- |
+| 北京银行 | com.bankofbeijing.mobilebanking | 开屏广告 |
+| 北通游戏厅 | com.zuoyou.center | 启动弹窗 |
+| 北通游戏厅 | com.zuoyou.center | 开屏广告 |
+| 便利蜂 | com.bianlifeng.customer.android | 启动广告-加盟弹窗 |
+| Cellular-Z | make.more.r2d2.cellular_z | 启动广告 |
+| 刺猬猫阅读 | com.kuangxiangciweimao.novel | 主页节日弹窗 |
+| 多点 | com.wm.dmall | 启动广告 |
+| 多点 | com.wm.dmall | 弹窗广告 |
+| 菠萝包轻小说 | com.sfacg | 启动广告 |
+| 淘宝 | com.taobao.taobao | 弹窗红包广告 |
 <!--/DYNAMIC-->
