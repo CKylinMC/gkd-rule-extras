@@ -4,6 +4,13 @@ const base = require('./base.json');
 
 const rulesFolder = "./rules";
 const targetFolder = "./dist";
+const mdFile = "./README.md";
+const mdMarker = "DYNAMIC"
+const mdList = [
+    "## 补充规则一览表",
+    "| 应用 | 包名 | 规则 |",
+    "| --- | --- | --- |",
+]
 
 function checkSubProperty(obj, propName, validationFunc, optional = false) {
     if (obj[propName]) {
@@ -101,3 +108,23 @@ if (!fs.existsSync(targetFolder)) {
 fs.writeFileSync(path.join(targetFolder, 'cky-gkd-rules.json'), JSON.stringify(base, null, 2));
 
 console.log('Done with', rules.length, 'rules!');
+
+console.log('Updating README.md ...');
+
+for (const rule of rules) {
+    const app = rule.name;
+    const pkg = rule.id;
+    for (const child of rule.groups) { 
+        const ruleName = child.name;
+        mdList.push(`| ${app} | ${pkg} | ${ruleName} |`);
+    }
+}
+
+const mdContent = fs.readFileSync(mdFile, 'utf8');
+const startMark = `<!--${mdMarker}-->`;
+const endMark = `<!--/${mdMarker}-->`;
+const startIndex = mdContent.indexOf(startMark) + startMark.length;
+const endIndex = mdContent.indexOf(endMark);
+const newMdContent = mdContent.slice(0, startIndex) + '\n' + mdList.join('\n') + '\n' + mdContent.slice(endIndex);
+fs.writeFileSync(mdFile, newMdContent);
+console.log('Done!');

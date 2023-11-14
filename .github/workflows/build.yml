@@ -35,7 +35,7 @@ jobs:
               uses: EndBug/add-and-commit@v9
               with:
                     message: "ci: update dist [skip ci]"
-                    add: dist/*
+                    add: '["dist/*","README.md"]'
                     author_name: "GitHub Actions"
                     author_email: "github-actions[bot]@users.noreply.github.com"
 
