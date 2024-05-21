@@ -10,8 +10,9 @@
             ],
             "rules": [
                 {
-                    "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > TextView[id=`com.sfacg:id/tv_jump`]",
-                    "snapshotUrls": "https://gkd-kit.gitee.io/import/12826903"
+                    "quickFind": true,
+                    "matches": "[text^=\"跳过\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/15388797"
                 }
             ]
         }

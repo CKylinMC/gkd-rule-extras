@@ -1,0 +1,20 @@
+{
+    "id": "com.jd.jrapp",
+    "name": "京东金融",
+    "groups": [
+        {
+            "key": 1,
+            "name": "启动广告",
+            "activityIds": [
+                "com.jd.jrapp.bm.mainbox.main.MainActivity"
+            ],
+            "rules": [
+                {
+                    "quickFind": true,
+                    "matches": "[text^=\"跳过\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/15389036"
+                }
+            ]
+        }
+    ]
+}

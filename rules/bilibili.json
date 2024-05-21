@@ -1,0 +1,20 @@
+{
+    "id": "tv.danmaku.bili",
+    "name": "哔哩哔哩",
+    "groups": [
+        {
+            "key": 1,
+            "name": "启动广告",
+            "activityIds": [
+                "tv.danmaku.bili.MainActivityV2"
+            ],
+            "rules": [
+                {
+                    "quickFind": true,
+                    "matches": "[text^=\"跳过\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/15389013"
+                }
+            ]
+        }
+    ]
+}

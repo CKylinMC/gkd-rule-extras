@@ -1,0 +1,20 @@
+{
+    "id": "com.fcbox.hiveconsumer",
+    "name": "丰巢",
+    "groups": [
+        {
+            "key": 1,
+            "name": "启动广告",
+            "activityIds": [
+                "kt.com.fcbox.hiveconsumer.app.business.splashad.SplashActivity"
+            ],
+            "rules": [
+                {
+                    "quickFind": true,
+                    "matches": "[text^=\"跳过\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/15389025"
+                }
+            ]
+        }
+    ]
+}
