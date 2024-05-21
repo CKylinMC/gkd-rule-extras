@@ -57,8 +57,9 @@
           ],
           "rules": [
             {
-              "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > TextView[id=`com.bankofbeijing.mobilebanking:id/tv_skip`]",
-              "snapshotUrls": "https://gkd-kit.gitee.io/import/13028907"
+              "quickFind": true,
+              "matches": "[text=\"跳过\"]",
+              "snapshotUrls": "https://i.gkd.li/import/13028907"
             }
           ]
         }
@@ -77,20 +78,21 @@
           "rules": [
             {
               "matches": "FrameLayout > FrameLayout > FrameLayout > RelativeLayout > ImageView[id=`com.zuoyou.center:id/iv_close_icon`]",
-              "snapshotUrls": "https://gkd-kit.gitee.io/import/12827322"
+              "snapshotUrls": "https://i.gkd.li/import/12827322"
             }
           ]
         },
         {
           "key": 2,
-          "name": "开屏广告",
+          "name": "启动广告",
           "activityIds": [
             "com.zuoyou.center.ui.activity.SplashActivity"
           ],
           "rules": [
             {
-              "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > FrameLayout > TextView[id=`com.zuoyou.center:id/tv_skip`]",
-              "snapshotUrls": "https://gkd-kit.gitee.io/import/13029162"
+              "quickFind": true,
+              "matches": "[text^=\"跳过\"]",
+              "snapshotUrls": "https://i.gkd.li/import/13029162"
             }
           ]
         }
@@ -108,8 +110,9 @@
           ],
           "rules": [
             {
-              "matches": "FrameLayout > LinearLayout > FrameLayout > LinearLayout > FrameLayout > FrameLayout > FrameLayout > ViewGroup > ViewGroup > ViewGroup > ViewGroup > ViewGroup > ViewGroup > @ViewGroup > TextView[text=`跳过`]",
-              "snapshotUrls": "https://gkd-kit.gitee.io/import/12827340"
+              "quickFind": true,
+              "matches": "[text^=\"跳过\"]",
+              "snapshotUrls": "https://i.gkd.li/import/12827340"
             }
           ]
         }
@@ -147,8 +150,9 @@
           ],
           "rules": [
             {
-              "matches": "FrameLayout > LinearLayout > FrameLayout > LinearLayout > FrameLayout > FrameLayout > FrameLayout > RelativeLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > LinearLayout > TextView[text=`跳过`]",
-              "snapshotUrls": "https://gkd-kit.gitee.io/import/12827258"
+              "quickFind": true,
+              "matches": "[text=\"跳过\"]",
+              "snapshotUrls": "https://i.gkd.li/import/12827258"
             }
           ]
         }
@@ -167,7 +171,7 @@
           "rules": [
             {
               "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > FrameLayout > RelativeLayout > RelativeLayout > ImageView[id=`com.kuangxiangciweimao.novel:id/imgclose`]",
-              "snapshotUrls": "https://gkd-kit.gitee.io/import/12836699"
+              "snapshotUrls": "https://i.gkd.li/import/12836699"
             }
           ]
         }
@@ -205,8 +209,8 @@
           ],
           "rules": [
             {
-              "matches": "FrameLayout > LinearLayout > FrameLayout > FrameLayout > FrameLayout > ViewGroup > TextView[id=`com.wm.dmall:id/splashSkipTextView`][text=`跳过`]",
-              "snapshotUrls": "https://gkd-kit.gitee.io/import/12827365"
+              "matches": "[text=\"跳过\"]",
+              "snapshotUrls": "https://i.gkd.li/import/12827365"
             }
           ]
         },
@@ -220,7 +224,7 @@
             {
               "quickFind": true,
               "matches": "[id=\"com.wm.dmall:id/iv_close\"]",
-              "snapshotUrls": "https://gkd-kit.gitee.io/import/12827375"
+              "snapshotUrls": "https://i.gkd.li/import/12827375"
             }
           ]
         }
@@ -339,7 +343,7 @@
           "rules": [
             {
               "matches": "FrameLayout > LinearLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > RelativeLayout > FrameLayout > ImageView[desc=`关闭按钮`]",
-              "snapshotUrls": "https://gkd-kit.gitee.io/import/12827407"
+              "snapshotUrls": "https://i.gkd.li/import/12827407"
             }
           ]
         }
