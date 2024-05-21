@@ -6,6 +6,46 @@
   "version": 16,
   "apps": [
     {
+      "id": "com.baidu.searchbox",
+      "name": "百度",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告",
+          "activityIds": [
+            "com.baidu.searchbox.MainActivity"
+          ],
+          "rules": [
+            {
+              "quickFind": true,
+              "matches": "[text=\"跳过\"]",
+              "snapshotUrls": "https://i.gkd.li/i/15389147"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.baidu.tieba",
+      "name": "百度贴吧",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告",
+          "activityIds": [
+            "com.baidu.tieba.tblauncher.MainTabActivity"
+          ],
+          "rules": [
+            {
+              "quickFind": true,
+              "matches": "[text^=\"跳过\"]",
+              "snapshotUrls": "https://i.gkd.li/i/15389156"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "com.bankofbeijing.mobilebanking",
       "name": "北京银行",
       "groups": [
@@ -134,6 +174,26 @@
       ]
     },
     {
+      "id": "com.dianping.v1",
+      "name": "大众点评",
+      "groups": [
+        {
+          "key": 1,
+          "name": "红包弹窗广告",
+          "activityIds": [
+            "com.dianping.v1.NovaMainActivity"
+          ],
+          "rules": [
+            {
+              "quickFind": true,
+              "matches": "[id=\"com.dianping.v1:id/operate_cross_icon\"]",
+              "snapshotUrls": "https://i.gkd.li/i/15389169"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "com.wm.dmall",
       "name": "多点",
       "groups": [
@@ -152,13 +212,14 @@
         },
         {
           "key": 2,
-          "name": "弹窗广告",
+          "name": "红包弹窗广告",
           "activityIds": [
             "com.wm.dmall.MainActivity"
           ],
           "rules": [
             {
-              "matches": "FrameLayout > FrameLayout > FrameLayout > RelativeLayout > RelativeLayout > ImageView[id=`com.wm.dmall:id/advert_close`]",
+              "quickFind": true,
+              "matches": "[id=\"com.wm.dmall:id/iv_close\"]",
               "snapshotUrls": "https://gkd-kit.gitee.io/import/12827375"
             }
           ]
@@ -279,6 +340,26 @@
             {
               "matches": "FrameLayout > LinearLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > RelativeLayout > FrameLayout > ImageView[desc=`关闭按钮`]",
               "snapshotUrls": "https://gkd-kit.gitee.io/import/12827407"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.sina.weibo",
+      "name": "微博",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告",
+          "activityIds": [
+            "com.sina.weibo.SplashActivity"
+          ],
+          "rules": [
+            {
+              "quickFind": true,
+              "matches": "[text=\"跳过\"]",
+              "snapshotUrls": "https://i.gkd.li/i/15389202"
             }
           ]
         }

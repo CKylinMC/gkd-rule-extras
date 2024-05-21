@@ -28,6 +28,8 @@ npm run build
 ## 补充规则一览表
 | 应用 | 包名 | 规则 |
 | --- | --- | --- |
+| 百度 | com.baidu.searchbox | 启动广告 |
+| 百度贴吧 | com.baidu.tieba | 启动广告 |
 | 北京银行 | com.bankofbeijing.mobilebanking | 开屏广告 |
 | 北通游戏厅 | com.zuoyou.center | 启动弹窗 |
 | 北通游戏厅 | com.zuoyou.center | 开屏广告 |
@@ -35,12 +37,14 @@ npm run build
 | 哔哩哔哩 | tv.danmaku.bili | 启动广告 |
 | Cellular-Z | make.more.r2d2.cellular_z | 启动广告 |
 | 刺猬猫阅读 | com.kuangxiangciweimao.novel | 主页节日弹窗 |
+| 大众点评 | com.dianping.v1 | 红包弹窗广告 |
 | 多点 | com.wm.dmall | 启动广告 |
-| 多点 | com.wm.dmall | 弹窗广告 |
+| 多点 | com.wm.dmall | 红包弹窗广告 |
 | 丰巢 | com.fcbox.hiveconsumer | 启动广告 |
 | 京东金融 | com.jd.jrapp | 启动广告 |
 | 肯德基 | com.yek.android.kfc.activitys | 启动广告 |
 | 美团 | com.sankuai.meituan | 启动广告 |
 | 菠萝包轻小说 | com.sfacg | 启动广告 |
 | 淘宝 | com.taobao.taobao | 弹窗红包广告 |
+| 微博 | com.sina.weibo | 启动广告 |
 <!--/DYNAMIC-->
