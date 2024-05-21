@@ -11,20 +11,21 @@
             "rules": [
                 {
                     "matches": "FrameLayout > FrameLayout > FrameLayout > RelativeLayout > ImageView[id=`com.zuoyou.center:id/iv_close_icon`]",
-                    "snapshotUrls": "https://gkd-kit.gitee.io/import/12827322"
+                    "snapshotUrls": "https://i.gkd.li/import/12827322"
                 }
             ]
         },
         {
             "key": 2,
-            "name": "开屏广告",
+            "name": "启动广告",
             "activityIds": [
                 "com.zuoyou.center.ui.activity.SplashActivity"
             ],
             "rules": [
                 {
-                    "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > FrameLayout > TextView[id=`com.zuoyou.center:id/tv_skip`]",
-                    "snapshotUrls": "https://gkd-kit.gitee.io/import/13029162"
+                    "quickFind": true,
+                    "matches": "[text^=\"跳过\"]",
+                    "snapshotUrls": "https://i.gkd.li/import/13029162"
                 }
             ]
         }

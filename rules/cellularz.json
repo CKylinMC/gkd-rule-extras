@@ -10,8 +10,9 @@
             ],
             "rules": [
                 {
-                    "matches": "FrameLayout > LinearLayout > FrameLayout > LinearLayout > FrameLayout > FrameLayout > FrameLayout > RelativeLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > LinearLayout > TextView[text=`跳过`]",
-                    "snapshotUrls": "https://gkd-kit.gitee.io/import/12827258"
+                    "quickFind": true,
+                    "matches": "[text=\"跳过\"]",
+                    "snapshotUrls": "https://i.gkd.li/import/12827258"
                 }
             ]
         }

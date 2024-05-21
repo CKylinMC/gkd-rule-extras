@@ -10,8 +10,8 @@
             ],
             "rules": [
                 {
-                    "matches": "FrameLayout > LinearLayout > FrameLayout > FrameLayout > FrameLayout > ViewGroup > TextView[id=`com.wm.dmall:id/splashSkipTextView`][text=`跳过`]",
-                    "snapshotUrls": "https://gkd-kit.gitee.io/import/12827365"
+                    "matches": "[text=\"跳过\"]",
+                    "snapshotUrls": "https://i.gkd.li/import/12827365"
                 }
             ]
         },
@@ -25,7 +25,7 @@
                 {
                     "quickFind": true,
                     "matches": "[id=\"com.wm.dmall:id/iv_close\"]",
-                    "snapshotUrls": "https://gkd-kit.gitee.io/import/12827375"
+                    "snapshotUrls": "https://i.gkd.li/import/12827375"
                 }
             ]
         }

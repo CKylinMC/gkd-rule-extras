@@ -11,7 +11,7 @@
             "rules": [
                 {
                     "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > FrameLayout > RelativeLayout > RelativeLayout > ImageView[id=`com.kuangxiangciweimao.novel:id/imgclose`]",
-                    "snapshotUrls": "https://gkd-kit.gitee.io/import/12836699"
+                    "snapshotUrls": "https://i.gkd.li/import/12836699"
                 }
             ]
         }

@@ -10,8 +10,9 @@
             ],
             "rules": [
                 {
-                    "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > TextView[id=`com.bankofbeijing.mobilebanking:id/tv_skip`]",
-                    "snapshotUrls": "https://gkd-kit.gitee.io/import/13028907"
+                    "quickFind": true,
+                    "matches": "[text=\"跳过\"]",
+                    "snapshotUrls": "https://i.gkd.li/import/13028907"
                 }
             ]
         }
