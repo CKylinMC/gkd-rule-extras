@@ -3,7 +3,7 @@
   "name": "CKy 额外规则",
   "author": "CKylinMC",
   "supportUri": "https://github.com/CKylinMC/gkd-rule-extras",
-  "version": 15,
+  "version": 16,
   "apps": [
     {
       "id": "com.bankofbeijing.mobilebanking",
@@ -70,6 +70,26 @@
             {
               "matches": "FrameLayout > LinearLayout > FrameLayout > LinearLayout > FrameLayout > FrameLayout > FrameLayout > ViewGroup > ViewGroup > ViewGroup > ViewGroup > ViewGroup > ViewGroup > @ViewGroup > TextView[text=`跳过`]",
               "snapshotUrls": "https://gkd-kit.gitee.io/import/12827340"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tv.danmaku.bili",
+      "name": "哔哩哔哩",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告",
+          "activityIds": [
+            "tv.danmaku.bili.MainActivityV2"
+          ],
+          "rules": [
+            {
+              "quickFind": true,
+              "matches": "[text^=\"跳过\"]",
+              "snapshotUrls": "https://i.gkd.li/i/15389013"
             }
           ]
         }
@@ -146,6 +166,86 @@
       ]
     },
     {
+      "id": "com.fcbox.hiveconsumer",
+      "name": "丰巢",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告",
+          "activityIds": [
+            "kt.com.fcbox.hiveconsumer.app.business.splashad.SplashActivity"
+          ],
+          "rules": [
+            {
+              "quickFind": true,
+              "matches": "[text^=\"跳过\"]",
+              "snapshotUrls": "https://i.gkd.li/i/15389025"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.jd.jrapp",
+      "name": "京东金融",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告",
+          "activityIds": [
+            "com.jd.jrapp.bm.mainbox.main.MainActivity"
+          ],
+          "rules": [
+            {
+              "quickFind": true,
+              "matches": "[text^=\"跳过\"]",
+              "snapshotUrls": "https://i.gkd.li/i/15389036"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.yek.android.kfc.activitys",
+      "name": "肯德基",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告",
+          "activityIds": [
+            "com.yum.android.superkfc.ui.v5.HomeV5Activity"
+          ],
+          "rules": [
+            {
+              "quickFind": true,
+              "matches": "[text$=\"跳过\"]",
+              "snapshotUrls": "https://i.gkd.li/i/15389047"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.sankuai.meituan",
+      "name": "美团",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告",
+          "activityIds": [
+            "com.meituan.android.pt.homepage.activity.MainActivity"
+          ],
+          "rules": [
+            {
+              "quickFind": true,
+              "matches": "[text^=\"跳过\"]",
+              "snapshotUrls": "https://i.gkd.li/i/15388995"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "com.sfacg",
       "name": "菠萝包轻小说",
       "groups": [
@@ -157,8 +257,9 @@
           ],
           "rules": [
             {
-              "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > TextView[id=`com.sfacg:id/tv_jump`]",
-              "snapshotUrls": "https://gkd-kit.gitee.io/import/12826903"
+              "quickFind": true,
+              "matches": "[text^=\"跳过\"]",
+              "snapshotUrls": "https://i.gkd.li/i/15388797"
             }
           ]
         }

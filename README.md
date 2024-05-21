@@ -32,10 +32,15 @@ npm run build
 | 北通游戏厅 | com.zuoyou.center | 启动弹窗 |
 | 北通游戏厅 | com.zuoyou.center | 开屏广告 |
 | 便利蜂 | com.bianlifeng.customer.android | 启动广告-加盟弹窗 |
+| 哔哩哔哩 | tv.danmaku.bili | 启动广告 |
 | Cellular-Z | make.more.r2d2.cellular_z | 启动广告 |
 | 刺猬猫阅读 | com.kuangxiangciweimao.novel | 主页节日弹窗 |
 | 多点 | com.wm.dmall | 启动广告 |
 | 多点 | com.wm.dmall | 弹窗广告 |
+| 丰巢 | com.fcbox.hiveconsumer | 启动广告 |
+| 京东金融 | com.jd.jrapp | 启动广告 |
+| 肯德基 | com.yek.android.kfc.activitys | 启动广告 |
+| 美团 | com.sankuai.meituan | 启动广告 |
 | 菠萝包轻小说 | com.sfacg | 启动广告 |
 | 淘宝 | com.taobao.taobao | 弹窗红包广告 |
 <!--/DYNAMIC-->
