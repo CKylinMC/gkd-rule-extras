@@ -1,0 +1,20 @@
+{
+    "id": "com.sina.weibo",
+    "name": "微博",
+    "groups": [
+        {
+            "key": 1,
+            "name": "启动广告",
+            "activityIds": [
+                "com.sina.weibo.SplashActivity"
+            ],
+            "rules": [
+                {
+                    "quickFind": true,
+                    "matches": "[text=\"跳过\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/15389202"
+                }
+            ]
+        }
+    ]
+}

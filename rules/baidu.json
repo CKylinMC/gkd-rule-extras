@@ -1,0 +1,20 @@
+{
+    "id": "com.baidu.searchbox",
+    "name": "百度",
+    "groups": [
+        {
+            "key": 1,
+            "name": "启动广告",
+            "activityIds": [
+                "com.baidu.searchbox.MainActivity"
+            ],
+            "rules": [
+                {
+                    "quickFind": true,
+                    "matches": "[text=\"跳过\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/15389147"
+                }
+            ]
+        }
+    ]
+}

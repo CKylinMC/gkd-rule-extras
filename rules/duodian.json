@@ -17,13 +17,14 @@
         },
         {
             "key": 2,
-            "name": "弹窗广告",
+            "name": "红包弹窗广告",
             "activityIds": [
                 "com.wm.dmall.MainActivity"
             ],
             "rules": [
                 {
-                    "matches": "FrameLayout > FrameLayout > FrameLayout > RelativeLayout > RelativeLayout > ImageView[id=`com.wm.dmall:id/advert_close`]",
+                    "quickFind": true,
+                    "matches": "[id=\"com.wm.dmall:id/iv_close\"]",
                     "snapshotUrls": "https://gkd-kit.gitee.io/import/12827375"
                 }
             ]
