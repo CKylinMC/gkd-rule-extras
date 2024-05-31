@@ -26,6 +26,7 @@ npm run build
 <!--[DO NOT MODIFY ANYTHING BELOW]-->
 <!--DYNAMIC-->
 ## 补充规则一览表
+**当前包含针对18的总计20条规则。**    
 | 应用 | 包名 | 规则 |
 | --- | --- | --- |
 | 百度 | com.baidu.searchbox | 启动广告 |
