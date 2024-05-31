@@ -38,6 +38,7 @@ npm run build
 | Cellular-Z | make.more.r2d2.cellular_z | 启动广告 |
 | 刺猬猫阅读 | com.kuangxiangciweimao.novel | 主页节日弹窗 |
 | 大众点评 | com.dianping.v1 | 红包弹窗广告 |
+| 钉钉 | com.alibaba.android.rimet | 启动广告 |
 | 多点 | com.wm.dmall | 启动广告 |
 | 多点 | com.wm.dmall | 红包弹窗广告 |
 | 丰巢 | com.fcbox.hiveconsumer | 启动广告 |
