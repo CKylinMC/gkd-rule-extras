@@ -6,8 +6,10 @@ const rulesFolder = "./rules";
 const targetFolder = "./dist";
 const mdFile = "./README.md";
 const mdMarker = "DYNAMIC"
-const mdList = [
+const mdPrefix = [
     "## 补充规则一览表",
+];
+const mdList = [
     "| 应用 | 包名 | 规则 |",
     "| --- | --- | --- |",
 ]
@@ -107,7 +109,12 @@ if (!fs.existsSync(targetFolder)) {
 }
 fs.writeFileSync(path.join(targetFolder, 'cky-gkd-rules.json'), JSON.stringify(base, null, 2));
 
-console.log('Done with', rules.length, 'rules!');
+// rules count = all rules sub groups child name count with reduce
+let rulesCount = rules.reduce((acc, app) => acc + app.groups.reduce((acc, group) => acc + group.rules.length, 0), 0);
+let appsCount = rules.length;
+
+console.log('Done with', appsCount, 'apps and', rulesCount, 'rules!');
+mdPrefix.push(`**当前包含针对${appsCount}的总计${rulesCount}条规则。**    \n`);
 
 console.log('Updating README.md ...');
 
@@ -125,6 +132,6 @@ const startMark = `<!--${mdMarker}-->`;
 const endMark = `<!--/${mdMarker}-->`;
 const startIndex = mdContent.indexOf(startMark) + startMark.length;
 const endIndex = mdContent.indexOf(endMark);
-const newMdContent = mdContent.slice(0, startIndex) + '\n' + mdList.join('\n') + '\n' + mdContent.slice(endIndex);
+const newMdContent = mdContent.slice(0, startIndex) + '\n' + mdPrefix.join('\n') + mdList.join('\n') + '\n' + mdContent.slice(endIndex);
 fs.writeFileSync(mdFile, newMdContent);
 console.log('Done!');
