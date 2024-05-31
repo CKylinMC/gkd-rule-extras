@@ -7,9 +7,9 @@
 
 *长按或右键链接选择复制链接地址*
 
-* [Fastly jsDelivr (国内可访问)](https://fastly.jsdelivr.net/gh/ckylinmc/gkd-rule-extras@dist/dist/cky-gkd-rules.json)
-* [Github](https://github.com/CKylinMC/gkd-rule-extras/raw/dist/dist/cky-gkd-rules.json)
-* [Statically](https://cdn.statically.io/gh/ckylinmc/gkd-rule-extras@dist/dist/cky-gkd-rules.json)
+* [Fastly jsDelivr (国内可访问)](https://fastly.jsdelivr.net/gh/ckylinmc/gkd-rule-extras@main/dist/cky-gkd-rules.json)
+* [Github](https://github.com/CKylinMC/gkd-rule-extras/raw/main/dist/cky-gkd-rules.json)
+* [Statically](https://cdn.statically.io/gh/ckylinmc/gkd-rule-extras@main/dist/cky-gkd-rules.json)
 
 ## 补充规则
 
