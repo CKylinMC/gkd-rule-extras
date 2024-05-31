@@ -38,6 +38,7 @@ jobs:
                     add: '["dist/*","README.md"]'
                     author_name: "GitHub Actions"
                     author_email: "github-actions[bot]@users.noreply.github.com"
+                    new_branch: dist
 
             - uses: ckylinmc/minio-upload-action@v1.2
               with:
