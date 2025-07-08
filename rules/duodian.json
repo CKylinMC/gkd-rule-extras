@@ -10,6 +10,7 @@
             ],
             "rules": [
                 {
+                    "matchTime": 10000,
                     "matches": "[text=\"跳过\"]",
                     "snapshotUrls": "https://i.gkd.li/import/12827365"
                 }
@@ -23,7 +24,8 @@
             ],
             "rules": [
                 {
-                    "quickFind": true,
+                    "matchTime": 30000,
+                    "fastQuery": true,
                     "matches": "[id=\"com.wm.dmall:id/iv_close\"]",
                     "snapshotUrls": "https://i.gkd.li/import/12827375"
                 }

@@ -10,6 +10,7 @@
             ],
             "rules": [
                 {
+                    "matchTime": 30000,
                     "matches": "FrameLayout > FrameLayout > FrameLayout > RelativeLayout > ImageView[id=`com.zuoyou.center:id/iv_close_icon`]",
                     "snapshotUrls": "https://i.gkd.li/import/12827322"
                 }
@@ -23,7 +24,8 @@
             ],
             "rules": [
                 {
-                    "quickFind": true,
+                    "matchTime": 10000,
+                    "fastQuery": true,
                     "matches": "[text^=\"跳过\"]",
                     "snapshotUrls": "https://i.gkd.li/import/13029162"
                 }

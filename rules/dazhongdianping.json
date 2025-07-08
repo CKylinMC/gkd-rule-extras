@@ -10,7 +10,7 @@
             ],
             "rules": [
                 {
-                    "quickFind": true,
+                    "fastQuery": true,
                     "matches": "[id=\"com.dianping.v1:id/operate_cross_icon\"]",
                     "snapshotUrls": "https://i.gkd.li/i/15389169"
                 }

@@ -10,7 +10,7 @@
             ],
             "rules": [
                 {
-                    "quickFind": true,
+                    "fastQuery": true,
                     "matches": "[text=\"跳过\"]",
                     "snapshotUrls": "https://i.gkd.li/import/13028907"
                 }

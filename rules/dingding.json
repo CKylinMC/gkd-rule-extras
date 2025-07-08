@@ -10,7 +10,8 @@
             ],
             "rules": [
                 {
-                    "quickFind": true,
+                    "matchTime": 10000,
+                    "fastQuery": true,
                     "matches": "[id=\"com.alibaba.android.rimet:id/splash_advertise_pass_text\"]",
                     "snapshotUrls": "https://i.gkd.li/i/15509285"
                 }
