@@ -3,7 +3,7 @@
   "name": "CKy 额外规则",
   "author": "CKylinMC",
   "supportUri": "https://github.com/CKylinMC/gkd-rule-extras",
-  "version": 15,
+  "version": 16,
   "apps": [
     {
       "id": "com.baidu.searchbox",
@@ -20,6 +20,26 @@
               "quickFind": true,
               "matches": "[text=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/i/15389147"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.baidu.BaiduMap",
+      "name": "百度地图",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告",
+          "activityIds": [
+            "com.baidu.baidumaps.MapsActivity"
+          ],
+          "rules": [
+            {
+              "quickFind": true,
+              "matches": "[vid=\"yellow_banner_close\"]",
+              "snapshotUrls": "https://i.gkd.li/i/21115776"
             }
           ]
         }

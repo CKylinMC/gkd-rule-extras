@@ -26,10 +26,11 @@ npm run build
 <!--[DO NOT MODIFY ANYTHING BELOW]-->
 <!--DYNAMIC-->
 ## 补充规则一览表
-**当前包含针对18的总计20条规则。**    
+**当前包含针对19的总计21条规则。**    
 | 应用 | 包名 | 规则 |
 | --- | --- | --- |
 | 百度 | com.baidu.searchbox | 启动广告 |
+| 百度地图 | com.baidu.BaiduMap | 启动广告 |
 | 百度贴吧 | com.baidu.tieba | 启动广告 |
 | 北京银行 | com.bankofbeijing.mobilebanking | 开屏广告 |
 | 北通游戏厅 | com.zuoyou.center | 启动弹窗 |
