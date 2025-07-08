@@ -3,7 +3,7 @@
   "name": "CKy 额外规则",
   "author": "CKylinMC",
   "supportUri": "https://github.com/CKylinMC/gkd-rule-extras",
-  "version": 16,
+  "version": 17,
   "apps": [
     {
       "id": "com.baidu.searchbox",
@@ -17,7 +17,8 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "matchTime": 10000,
+              "fastQuery": true,
               "matches": "[text=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/i/15389147"
             }
@@ -37,7 +38,8 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "matchTime": 10000,
+              "fastQuery": true,
               "matches": "[vid=\"yellow_banner_close\"]",
               "snapshotUrls": "https://i.gkd.li/i/21115776"
             }
@@ -57,7 +59,8 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "matchTime": 10000,
+              "fastQuery": true,
               "matches": "[text^=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/i/15389156"
             }
@@ -77,7 +80,7 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "fastQuery": true,
               "matches": "[text=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/import/13028907"
             }
@@ -97,6 +100,7 @@
           ],
           "rules": [
             {
+              "matchTime": 30000,
               "matches": "FrameLayout > FrameLayout > FrameLayout > RelativeLayout > ImageView[id=`com.zuoyou.center:id/iv_close_icon`]",
               "snapshotUrls": "https://i.gkd.li/import/12827322"
             }
@@ -110,7 +114,8 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "matchTime": 10000,
+              "fastQuery": true,
               "matches": "[text^=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/import/13029162"
             }
@@ -130,7 +135,8 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "matchTime": 30000,
+              "fastQuery": true,
               "matches": "[text^=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/import/12827340"
             }
@@ -150,7 +156,8 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "matchTime": 10000,
+              "fastQuery": true,
               "matches": "[text^=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/i/15389013"
             }
@@ -170,7 +177,8 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "matchTime": 10000,
+              "fastQuery": true,
               "matches": "[text=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/import/12827258"
             }
@@ -209,7 +217,7 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "fastQuery": true,
               "matches": "[id=\"com.dianping.v1:id/operate_cross_icon\"]",
               "snapshotUrls": "https://i.gkd.li/i/15389169"
             }
@@ -229,7 +237,8 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "matchTime": 10000,
+              "fastQuery": true,
               "matches": "[id=\"com.alibaba.android.rimet:id/splash_advertise_pass_text\"]",
               "snapshotUrls": "https://i.gkd.li/i/15509285"
             }
@@ -249,6 +258,7 @@
           ],
           "rules": [
             {
+              "matchTime": 10000,
               "matches": "[text=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/import/12827365"
             }
@@ -262,7 +272,8 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "matchTime": 30000,
+              "fastQuery": true,
               "matches": "[id=\"com.wm.dmall:id/iv_close\"]",
               "snapshotUrls": "https://i.gkd.li/import/12827375"
             }
@@ -282,7 +293,8 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "matchTime": 10000,
+              "fastQuery": true,
               "matches": "[text^=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/i/15389025"
             }
@@ -302,7 +314,8 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "matchTime": 10000,
+              "fastQuery": true,
               "matches": "[text^=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/i/15389036"
             }
@@ -322,7 +335,8 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "matchTime": 10000,
+              "fastQuery": true,
               "matches": "[text$=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/i/15389047"
             }
@@ -342,7 +356,8 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "matchTime": 10000,
+              "fastQuery": true,
               "matches": "[text^=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/i/15388995"
             }
@@ -362,7 +377,8 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "matchTime": 10000,
+              "fastQuery": true,
               "matches": "[text^=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/i/15388797"
             }
@@ -401,7 +417,8 @@
           ],
           "rules": [
             {
-              "quickFind": true,
+              "matchTime": 10000,
+              "fastQuery": true,
               "matches": "[text=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/i/15389202"
             }
