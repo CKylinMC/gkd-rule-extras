@@ -4,5 +4,17 @@
   "author": "CKylinMC",
   "supportUri": "https://github.com/CKylinMC/gkd-rule-extras",
   "version": 18,
+  "categories": [
+    {
+      "key": 0,
+      "name": "启动广告",
+      "enable": true
+    },
+    {
+      "key": 1,
+      "name": "启动弹窗",
+      "enable": true
+    }
+  ],
   "apps": []
 }

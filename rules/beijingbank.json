@@ -4,7 +4,7 @@
     "groups": [
         {
             "key": 1,
-            "name": "开屏广告",
+            "name": "启动广告",
             "activityIds": [
                 "com.yitong.mobile.biz.launcher.app.guide.GuideActivity"
             ],

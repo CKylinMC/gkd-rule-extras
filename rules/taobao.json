@@ -4,7 +4,7 @@
     "groups": [
         {
             "key": 1,
-            "name": "弹窗红包广告",
+            "name": "启动弹窗-弹窗红包广告",
             "activityIds": [
                 "com.taobao.tao.welcome.Welcome"
             ],

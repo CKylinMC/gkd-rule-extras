@@ -4,7 +4,7 @@
     "groups": [
         {
             "key": 1,
-            "name": "主页节日弹窗",
+            "name": "启动弹窗-主页节日弹窗",
             "activityIds": [
                 "com.kuangxiangciweimao.novel.activity.frame.MainFrameActivity"
             ],
