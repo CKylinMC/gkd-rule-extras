@@ -26,7 +26,7 @@ npm run build
 <!--[DO NOT MODIFY ANYTHING BELOW]-->
 <!--DYNAMIC-->
 ## 补充规则一览表
-**当前包含针对19的总计21条规则。**    
+**当前包含针对20的总计22条规则。**    
 | 应用 | 包名 | 规则 |
 | --- | --- | --- |
 | 百度 | com.baidu.searchbox | 启动广告 |
@@ -50,4 +50,5 @@ npm run build
 | 菠萝包轻小说 | com.sfacg | 启动广告 |
 | 淘宝 | com.taobao.taobao | 弹窗红包广告 |
 | 微博 | com.sina.weibo | 启动广告 |
+| 知乎 | com.zhihu.android | 启动广告 |
 <!--/DYNAMIC-->
