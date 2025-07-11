@@ -26,9 +26,10 @@ npm run build
 <!--[DO NOT MODIFY ANYTHING BELOW]-->
 <!--DYNAMIC-->
 ## 补充规则一览表
-**当前包含针对20的总计22条规则。**    
+**当前包含针对24的总计27条规则。**    
 | 应用 | 包名 | 规则 |
 | --- | --- | --- |
+| APKPure | com.apkpure.aegon | 启动广告 |
 | 百度 | com.baidu.searchbox | 启动广告 |
 | 百度地图 | com.baidu.BaiduMap | 启动广告 |
 | 百度贴吧 | com.baidu.tieba | 启动广告 |
@@ -46,9 +47,13 @@ npm run build
 | 丰巢 | com.fcbox.hiveconsumer | 启动广告 |
 | 京东金融 | com.jd.jrapp | 启动广告 |
 | 肯德基 | com.yek.android.kfc.activitys | 启动广告 |
+| 肯德基 | com.yek.android.kfc.activitys | 启动广告 |
 | 美团 | com.sankuai.meituan | 启动广告 |
 | 菠萝包轻小说 | com.sfacg | 启动广告 |
 | 淘宝 | com.taobao.taobao | 启动弹窗-弹窗红包广告 |
 | 微博 | com.sina.weibo | 启动广告 |
+| 小黑盒 | com.max.xiaoheihe | 次要启动弹窗 |
+| 小米商城 | com.xiaomi.shop | 启动弹窗 |
+| 掌上京彩 | com.csii.bj.ui | 启动广告 |
 | 知乎 | com.zhihu.android | 启动广告 |
 <!--/DYNAMIC-->

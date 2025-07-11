@@ -3,7 +3,7 @@
   "name": "CKy 额外规则",
   "author": "CKylinMC",
   "supportUri": "https://github.com/CKylinMC/gkd-rule-extras",
-  "version": 19,
+  "version": 20,
   "categories": [
     {
       "key": 0,
@@ -14,9 +14,35 @@
       "key": 1,
       "name": "启动弹窗",
       "enable": true
+    },
+    {
+      "key": 2,
+      "name": "次要启动弹窗",
+      "enable": false
     }
   ],
   "apps": [
+    {
+      "id": "com.apkpure.aegon",
+      "name": "APKPure",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告",
+          "activityIds": [
+            ".main.activity.SplashActivity"
+          ],
+          "rules": [
+            {
+              "matchTime": 10000,
+              "fastQuery": false,
+              "matches": "TextView[text$=\"跳过\"]",
+              "snapshotUrls": "https://i.gkd.li/i/21175949"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "com.baidu.searchbox",
       "name": "百度",
@@ -353,6 +379,21 @@
               "snapshotUrls": "https://i.gkd.li/i/15389047"
             }
           ]
+        },
+        {
+          "key": 2,
+          "name": "启动广告",
+          "activityIds": [
+            "com.yum.brandkfc.ui.SplashProgressNewDialog"
+          ],
+          "rules": [
+            {
+              "matchTime": 10000,
+              "fastQuery": true,
+              "matches": "[vid=\"splash_tv_3\"]",
+              "snapshotUrls": "https://i.gkd.li/i/21175781"
+            }
+          ]
         }
       ]
     },
@@ -433,6 +474,69 @@
               "fastQuery": true,
               "matches": "[text=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/i/15389202"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.max.xiaoheihe",
+      "name": "小黑盒",
+      "groups": [
+        {
+          "key": 1,
+          "name": "次要启动弹窗",
+          "activityIds": [
+            ".MainActivity"
+          ],
+          "rules": [
+            {
+              "matchTime": 10000,
+              "fastQuery": true,
+              "matches": "[text=\"签到成功!\"] +3 [vid=\"cv_confirm\"] > [text=\"确定\"]",
+              "snapshotUrls": "https://i.gkd.li/i/21175886"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.xiaomi.shop",
+      "name": "小米商城",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动弹窗",
+          "activityIds": [
+            ".activity.MainTabActivity"
+          ],
+          "rules": [
+            {
+              "matchTime": 10000,
+              "fastQuery": true,
+              "matches": "[vid=\"skip\"]",
+              "snapshotUrls": "https://i.gkd.li/i/21175911"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.csii.bj.ui",
+      "name": "掌上京彩",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告",
+          "activityIds": [
+            ".launcherlibrary.app.activity.MainActivity"
+          ],
+          "rules": [
+            {
+              "matchTime": 10000,
+              "fastQuery": true,
+              "matches": "[vid=\"rl_all\"] > [vid=\"window_close\"]",
+              "snapshotUrls": "https://i.gkd.li/i/21175918"
             }
           ]
         }
