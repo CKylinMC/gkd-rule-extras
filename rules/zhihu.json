@@ -1,0 +1,21 @@
+{
+    "id": "com.zhihu.android",
+    "name": "知乎",
+    "groups": [
+        {
+            "key": 1,
+            "name": "启动广告",
+            "activityIds": [
+                ".app.ui.activity.LauncherActivity"
+            ],
+            "rules": [
+                {
+                    "matchTime": 10000,
+                    "fastQuery": true,
+                    "matches": "[vid=\"btn_skip\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/21175024"
+                }
+            ]
+        }
+    ]
+}
