@@ -26,7 +26,7 @@ npm run build
 <!--[DO NOT MODIFY ANYTHING BELOW]-->
 <!--DYNAMIC-->
 ## 补充规则一览表
-**当前包含针对24的总计27条规则。**    
+**当前包含针对 24 个应用的总计 27 条规则。**    
 | 应用 | 包名 | 规则 |
 | --- | --- | --- |
 | APKPure | com.apkpure.aegon | 启动广告 |
