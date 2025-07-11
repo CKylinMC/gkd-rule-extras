@@ -3,7 +3,19 @@
   "name": "CKy 额外规则",
   "author": "CKylinMC",
   "supportUri": "https://github.com/CKylinMC/gkd-rule-extras",
-  "version": 18,
+  "version": 19,
+  "categories": [
+    {
+      "key": 0,
+      "name": "启动广告",
+      "enable": true
+    },
+    {
+      "key": 1,
+      "name": "启动弹窗",
+      "enable": true
+    }
+  ],
   "apps": [
     {
       "id": "com.baidu.searchbox",
@@ -74,7 +86,7 @@
       "groups": [
         {
           "key": 1,
-          "name": "开屏广告",
+          "name": "启动广告",
           "activityIds": [
             "com.yitong.mobile.biz.launcher.app.guide.GuideActivity"
           ],
@@ -192,7 +204,7 @@
       "groups": [
         {
           "key": 1,
-          "name": "主页节日弹窗",
+          "name": "启动弹窗-主页节日弹窗",
           "activityIds": [
             "com.kuangxiangciweimao.novel.activity.frame.MainFrameActivity"
           ],
@@ -211,7 +223,7 @@
       "groups": [
         {
           "key": 1,
-          "name": "红包弹窗广告",
+          "name": "启动弹窗-红包弹窗广告",
           "activityIds": [
             "com.dianping.v1.NovaMainActivity"
           ],
@@ -266,7 +278,7 @@
         },
         {
           "key": 2,
-          "name": "红包弹窗广告",
+          "name": "启动弹窗-红包弹窗广告",
           "activityIds": [
             "com.wm.dmall.MainActivity"
           ],
@@ -392,7 +404,7 @@
       "groups": [
         {
           "key": 1,
-          "name": "弹窗红包广告",
+          "name": "启动弹窗-弹窗红包广告",
           "activityIds": [
             "com.taobao.tao.welcome.Welcome"
           ],
