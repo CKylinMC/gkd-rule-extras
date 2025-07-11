@@ -1,0 +1,21 @@
+{
+    "id": "com.max.xiaoheihe",
+    "name": "小黑盒",
+    "groups": [
+        {
+            "key": 1,
+            "name": "次要启动弹窗",
+            "activityIds": [
+                ".MainActivity"
+            ],
+            "rules": [
+                {
+                    "matchTime": 10000,
+                    "fastQuery": true,
+                    "matches": "[text=\"签到成功!\"] +3 [vid=\"cv_confirm\"] > [text=\"确定\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/21175886"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "com.xiaomi.shop",
+    "name": "小米商城",
+    "groups": [
+        {
+            "key": 1,
+            "name": "启动弹窗",
+            "activityIds": [
+                ".activity.MainTabActivity"
+            ],
+            "rules": [
+                {
+                    "matchTime": 10000,
+                    "fastQuery": true,
+                    "matches": "[vid=\"skip\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/21175911"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "com.apkpure.aegon",
+    "name": "APKPure",
+    "groups": [
+        {
+            "key": 1,
+            "name": "启动广告",
+            "activityIds": [
+                ".main.activity.SplashActivity"
+            ],
+            "rules": [
+                {
+                    "matchTime": 10000,
+                    "fastQuery": false,
+                    "matches": "TextView[text$=\"跳过\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/21175949"
+                }
+            ]
+        }
+    ]
+}

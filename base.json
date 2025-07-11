@@ -14,6 +14,11 @@
       "key": 1,
       "name": "启动弹窗",
       "enable": true
+    },
+    {
+      "key": 2,
+      "name": "次要启动弹窗",
+      "enable": false
     }
   ],
   "apps": []

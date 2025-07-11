@@ -1,0 +1,21 @@
+{
+    "id": "com.csii.bj.ui",
+    "name": "掌上京彩",
+    "groups": [
+        {
+            "key": 1,
+            "name": "启动广告",
+            "activityIds": [
+                ".launcherlibrary.app.activity.MainActivity"
+            ],
+            "rules": [
+                {
+                    "matchTime": 10000,
+                    "fastQuery": true,
+                    "matches": "[vid=\"rl_all\"] > [vid=\"window_close\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/21175918"
+                }
+            ]
+        }
+    ]
+}

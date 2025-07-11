@@ -16,6 +16,21 @@
                     "snapshotUrls": "https://i.gkd.li/i/15389047"
                 }
             ]
+        },
+        {
+            "key": 2,
+            "name": "启动广告",
+            "activityIds": [
+                "com.yum.brandkfc.ui.SplashProgressNewDialog"
+            ],
+            "rules": [
+                {
+                    "matchTime": 10000,
+                    "fastQuery": true,
+                    "matches": "[vid=\"splash_tv_3\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/21175781"
+                }
+            ]
         }
     ]
 }
