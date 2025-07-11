@@ -114,7 +114,7 @@ let rulesCount = rules.reduce((acc, app) => acc + app.groups.reduce((acc, group)
 let appsCount = rules.length;
 
 console.log('Done with', appsCount, 'apps and', rulesCount, 'rules!');
-mdPrefix.push(`**当前包含针对${appsCount}的总计${rulesCount}条规则。**    \n`);
+mdPrefix.push(`**当前包含针对 ${appsCount} 个应用的总计 ${rulesCount} 条规则。**    \n`);
 
 console.log('Updating README.md ...');
 
