@@ -14,6 +14,18 @@
                     "fastQuery": true,
                     "matches": "[id=\"cn.kaiheila:id/timerTv\"]",
                     "snapshotUrls": "https://i.gkd.li/i/24307417"
+                },
+                {
+                    "matchTime": 10000,
+                    "fastQuery": true,
+                    "matches": "[vid=\"ptgSkipLayout\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/24308214"
+                },
+                {
+                    "matchTime": 10000,
+                    "fastQuery": true,
+                    "matches": "[text^=\"跳过\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/24308264"
                 }
             ]
         }

@@ -1,0 +1,21 @@
+{
+    "id": "com.ai.obc.cbn.app",
+    "name": "中国广电",
+    "groups": [
+        {
+            "key": 1,
+            "name": "启动广告",
+            "activityIds": [
+                ".ui.other.activity.SplashActivity"
+            ],
+            "rules": [
+                {
+                    "matchTime": 10000,
+                    "fastQuery": true,
+                    "matches": "[vid=\"tvTg\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/24308332"
+                }
+            ]
+        }
+    ]
+}
