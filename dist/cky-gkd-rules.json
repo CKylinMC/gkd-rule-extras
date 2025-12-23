@@ -3,7 +3,7 @@
   "name": "CKy 额外规则",
   "author": "CKylinMC",
   "supportUri": "https://github.com/CKylinMC/gkd-rule-extras",
-  "version": 21,
+  "version": 22,
   "categories": [
     {
       "key": 0,
@@ -18,6 +18,16 @@
     {
       "key": 2,
       "name": "次要启动弹窗",
+      "enable": false
+    },
+    {
+      "key": 3,
+      "name": "启动广告（不稳定）",
+      "enable": false
+    },
+    {
+      "key": 4,
+      "name": "启动弹窗（不稳定）",
       "enable": false
     }
   ],
@@ -132,13 +142,14 @@
       "groups": [
         {
           "key": 1,
-          "name": "启动弹窗",
+          "name": "启动弹窗（不稳定）",
           "activityIds": [
             "com.zuoyou.center.ui.activity.MainActivity"
           ],
           "rules": [
             {
               "matchTime": 30000,
+              "fastQuery": true,
               "matches": "FrameLayout > FrameLayout > FrameLayout > RelativeLayout > ImageView[id=`com.zuoyou.center:id/iv_close_icon`]",
               "snapshotUrls": "https://i.gkd.li/import/12827322"
             }
@@ -230,12 +241,14 @@
       "groups": [
         {
           "key": 1,
-          "name": "启动弹窗-主页节日弹窗",
+          "name": "启动弹窗（不稳定）-主页节日弹窗",
           "activityIds": [
             "com.kuangxiangciweimao.novel.activity.frame.MainFrameActivity"
           ],
           "rules": [
             {
+              "fastQuery": true,
+              "matchTime": 10000,
               "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > FrameLayout > RelativeLayout > RelativeLayout > ImageView[id=`com.kuangxiangciweimao.novel:id/imgclose`]",
               "snapshotUrls": "https://i.gkd.li/import/12836699"
             }
@@ -383,6 +396,27 @@
       ]
     },
     {
+      "id": "cn.kaiheila",
+      "name": "KOOK",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告",
+          "activityIds": [
+            "cn.kaiheila.ad.UbixMaxSplashActivity"
+          ],
+          "rules": [
+            {
+              "matchTime": 10000,
+              "fastQuery": true,
+              "matches": "[id=\"cn.kaiheila:id/timerTv\"]",
+              "snapshotUrls": "https://i.gkd.li/i/24307417"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "com.yek.android.kfc.activitys",
       "name": "肯德基",
       "groups": [
@@ -460,6 +494,7 @@
           ],
           "rules": [
             {
+              "delayTime": 1000,
               "matchTime": 10000,
               "fastQuery": true,
               "matches": "[vid=\"iv_ad_close\"]",
@@ -538,6 +573,8 @@
           ],
           "rules": [
             {
+              "fastQuery": true,
+              "matchTime": 10000,
               "matches": "FrameLayout > LinearLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > RelativeLayout > FrameLayout > ImageView[desc=`关闭按钮`]",
               "snapshotUrls": "https://i.gkd.li/import/12827407"
             }
@@ -603,6 +640,27 @@
               "fastQuery": true,
               "matches": "[vid=\"skip\"]",
               "snapshotUrls": "https://i.gkd.li/i/21175911"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.youdao.dict",
+      "name": "有道词典",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告",
+          "activityIds": [
+            "com.youdao.dict.activity.DictSplashActivity"
+          ],
+          "rules": [
+            {
+              "matchTime": 10000,
+              "fastQuery": true,
+              "matches": "[vid=\"skip_top_view\"]",
+              "snapshotUrls": "https://i.gkd.li/i/24307463"
             }
           ]
         }
