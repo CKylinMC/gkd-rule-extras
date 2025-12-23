@@ -19,6 +19,16 @@
       "key": 2,
       "name": "次要启动弹窗",
       "enable": false
+    },
+    {
+      "key": 3,
+      "name": "启动广告（不稳定）",
+      "enable": false
+    },
+    {
+      "key": 4,
+      "name": "启动弹窗（不稳定）",
+      "enable": false
     }
   ],
   "apps": []

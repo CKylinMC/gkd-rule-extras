@@ -10,6 +10,8 @@
             ],
             "rules": [
                 {
+                    "fastQuery": true,
+                    "matchTime": 10000,
                     "matches": "FrameLayout > LinearLayout > FrameLayout > FrameLayout > FrameLayout > FrameLayout > RelativeLayout > FrameLayout > ImageView[desc=`关闭按钮`]",
                     "snapshotUrls": "https://i.gkd.li/import/12827407"
                 }

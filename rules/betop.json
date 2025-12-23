@@ -4,13 +4,14 @@
     "groups": [
         {
             "key": 1,
-            "name": "启动弹窗",
+            "name": "启动弹窗（不稳定）",
             "activityIds": [
                 "com.zuoyou.center.ui.activity.MainActivity"
             ],
             "rules": [
                 {
                     "matchTime": 30000,
+                    "fastQuery": true,
                     "matches": "FrameLayout > FrameLayout > FrameLayout > RelativeLayout > ImageView[id=`com.zuoyou.center:id/iv_close_icon`]",
                     "snapshotUrls": "https://i.gkd.li/import/12827322"
                 }

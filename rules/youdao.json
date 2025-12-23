@@ -1,0 +1,21 @@
+{
+    "id":"com.youdao.dict",
+    "name":"有道词典",
+    "groups":[
+        {
+            "key":1,
+            "name":"启动广告",
+            "activityIds":[
+                "com.youdao.dict.activity.DictSplashActivity"
+            ],
+            "rules":[
+                {
+                    "matchTime":10000,
+                    "fastQuery":true,
+                    "matches":"[vid=\"skip_top_view\"]",
+                    "snapshotUrls":"https://i.gkd.li/i/24307463"
+                }
+            ]
+        }
+    ]
+}

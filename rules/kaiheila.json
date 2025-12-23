@@ -1,0 +1,21 @@
+{
+    "id": "cn.kaiheila",
+    "name": "KOOK",
+    "groups": [
+        {
+            "key": 1,
+            "name": "启动广告",
+            "activityIds": [
+                "cn.kaiheila.ad.UbixMaxSplashActivity"
+            ],
+            "rules": [
+                {
+                    "matchTime": 10000,
+                    "fastQuery": true,
+                    "matches": "[id=\"cn.kaiheila:id/timerTv\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/24307417"
+                }
+            ]
+        }
+    ]
+}

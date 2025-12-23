@@ -4,12 +4,14 @@
     "groups": [
         {
             "key": 1,
-            "name": "启动弹窗-主页节日弹窗",
+            "name": "启动弹窗（不稳定）-主页节日弹窗",
             "activityIds": [
                 "com.kuangxiangciweimao.novel.activity.frame.MainFrameActivity"
             ],
             "rules": [
                 {
+                    "fastQuery": true,
+                    "matchTime": 10000,
                     "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > FrameLayout > RelativeLayout > RelativeLayout > ImageView[id=`com.kuangxiangciweimao.novel:id/imgclose`]",
                     "snapshotUrls": "https://i.gkd.li/import/12836699"
                 }

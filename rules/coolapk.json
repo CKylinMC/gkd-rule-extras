@@ -1,0 +1,18 @@
+{
+    "id": "com.coolapk.market",
+    "name": "酷安",
+    "groups": [
+        {
+            "key": 1,
+            "name": "启动广告（不稳定）",
+            "rules": [
+                {
+                    "fastQuery": true,
+                    "activityIds": "com.coolapk.market.view.main.MainActivity",
+                    "matches": "@ViewGroup < ViewGroup <3 ViewGroup < ViewGroup < FrameLayout < FrameLayout <3 FrameLayout < FrameLayout <2 FrameLayout <2 FrameLayout < FrameLayout < [vid=\"ad_container\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/24307722"
+                }
+            ]
+        }
+    ]
+}

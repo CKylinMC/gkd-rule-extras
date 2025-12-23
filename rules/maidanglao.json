@@ -25,6 +25,7 @@
             ],
             "rules": [
                 {
+                    "delayTime": 1000,
                     "matchTime": 10000,
                     "fastQuery": true,
                     "matches": "[vid=\"iv_ad_close\"]",
