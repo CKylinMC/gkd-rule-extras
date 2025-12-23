@@ -3,7 +3,7 @@
   "name": "CKy 额外规则",
   "author": "CKylinMC",
   "supportUri": "https://github.com/CKylinMC/gkd-rule-extras",
-  "version": 20,
+  "version": 21,
   "categories": [
     {
       "key": 0,
@@ -316,6 +316,27 @@
               "snapshotUrls": "https://i.gkd.li/import/12827375"
             }
           ]
+        },
+        {
+          "key": 3,
+          "name": "启动弹窗-促销广告",
+          "activityIds": [
+            "com.wm.dmall.MainActivity"
+          ],
+          "rules": [
+            {
+              "matchTime": 30000,
+              "fastQuery": true,
+              "matches": "[id=\"com.wm.dmall:id/iv_close\"]",
+              "snapshotUrls": "https://i.gkd.li/import/12827375"
+            },
+            {
+              "matchTime": 30000,
+              "fastQuery": true,
+              "matches": "[vid=\"advert_close\"]",
+              "snapshotUrls": "https://i.gkd.li/i/24303637"
+            }
+          ]
         }
       ]
     },
@@ -394,6 +415,57 @@
               "snapshotUrls": "https://i.gkd.li/i/21175781"
             }
           ]
+        },
+        {
+          "key": 3,
+          "name": "启动弹窗",
+          "activityIds": [
+            "com.yek.android.kfc.activitys"
+          ],
+          "rules": [
+            {
+              "matchTime": 10000,
+              "fastQuery": true,
+              "matches": "[vid=\"common_iv_close\"]",
+              "snapshotUrls": "https://i.gkd.li/i/24303716"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.mcdonalds.gma.cn",
+      "name": "麦当劳",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告",
+          "activityIds": [
+            "com.mcdonalds.gma.cn.activity.LaunchActivity"
+          ],
+          "rules": [
+            {
+              "matchTime": 10000,
+              "fastQuery": true,
+              "matches": "[vid=\"tv_skip\"]",
+              "snapshotUrls": "https://i.gkd.li/i/24303646"
+            }
+          ]
+        },
+        {
+          "key": 1,
+          "name": "启动弹窗",
+          "activityIds": [
+            "com.mcdonalds.gma.cn.activity.MainActivity"
+          ],
+          "rules": [
+            {
+              "matchTime": 10000,
+              "fastQuery": true,
+              "matches": "[vid=\"iv_ad_close\"]",
+              "snapshotUrls": "https://i.gkd.li/i/24303687"
+            }
+          ]
         }
       ]
     },
@@ -434,6 +506,21 @@
               "fastQuery": true,
               "matches": "[text^=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/i/15388797"
+            }
+          ]
+        },
+        {
+          "key": 2,
+          "name": "启动弹窗",
+          "activityIds": [
+            "com.sf.ui.main.MainActivity"
+          ],
+          "rules": [
+            {
+              "matchTime": 10000,
+              "fastQuery": true,
+              "matches": "[vid=\"imgClose\"]",
+              "snapshotUrls": "https://i.gkd.li/i/24303695"
             }
           ]
         }

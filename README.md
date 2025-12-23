@@ -26,7 +26,7 @@ npm run build
 <!--[DO NOT MODIFY ANYTHING BELOW]-->
 <!--DYNAMIC-->
 ## 补充规则一览表
-**当前包含针对 24 个应用的总计 27 条规则。**    
+**当前包含针对 25 个应用的总计 33 条规则。**    
 | 应用 | 包名 | 规则 |
 | --- | --- | --- |
 | APKPure | com.apkpure.aegon | 启动广告 |
@@ -44,12 +44,17 @@ npm run build
 | 钉钉 | com.alibaba.android.rimet | 启动广告 |
 | 多点 | com.wm.dmall | 启动广告 |
 | 多点 | com.wm.dmall | 启动弹窗-红包弹窗广告 |
+| 多点 | com.wm.dmall | 启动弹窗-促销广告 |
 | 丰巢 | com.fcbox.hiveconsumer | 启动广告 |
 | 京东金融 | com.jd.jrapp | 启动广告 |
 | 肯德基 | com.yek.android.kfc.activitys | 启动广告 |
 | 肯德基 | com.yek.android.kfc.activitys | 启动广告 |
+| 肯德基 | com.yek.android.kfc.activitys | 启动弹窗 |
+| 麦当劳 | com.mcdonalds.gma.cn | 启动广告 |
+| 麦当劳 | com.mcdonalds.gma.cn | 启动弹窗 |
 | 美团 | com.sankuai.meituan | 启动广告 |
 | 菠萝包轻小说 | com.sfacg | 启动广告 |
+| 菠萝包轻小说 | com.sfacg | 启动弹窗 |
 | 淘宝 | com.taobao.taobao | 启动弹窗-弹窗红包广告 |
 | 微博 | com.sina.weibo | 启动广告 |
 | 小黑盒 | com.max.xiaoheihe | 次要启动弹窗 |
