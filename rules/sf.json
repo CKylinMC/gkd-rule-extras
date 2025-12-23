@@ -16,6 +16,21 @@
                     "snapshotUrls": "https://i.gkd.li/i/15388797"
                 }
             ]
+        },
+        {
+            "key": 2,
+            "name": "启动弹窗",
+            "activityIds": [
+                "com.sf.ui.main.MainActivity"
+            ],
+            "rules": [
+                {
+                    "matchTime": 10000,
+                    "fastQuery": true,
+                    "matches": "[vid=\"imgClose\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/24303695"
+                }
+            ]
         }
     ]
 }

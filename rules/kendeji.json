@@ -31,6 +31,21 @@
                     "snapshotUrls": "https://i.gkd.li/i/21175781"
                 }
             ]
+        },
+        {
+            "key": 3,
+            "name": "启动弹窗",
+            "activityIds": [
+                "com.yek.android.kfc.activitys"
+            ],
+            "rules": [
+                {
+                    "matchTime": 10000,
+                    "fastQuery": true,
+                    "matches": "[vid=\"common_iv_close\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/24303716"
+                }
+            ]
         }
     ]
 }

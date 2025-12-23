@@ -30,6 +30,27 @@
                     "snapshotUrls": "https://i.gkd.li/import/12827375"
                 }
             ]
+        },
+        {
+            "key": 3,
+            "name": "启动弹窗-促销广告",
+            "activityIds": [
+                "com.wm.dmall.MainActivity"
+            ],
+            "rules": [
+                {
+                    "matchTime": 30000,
+                    "fastQuery": true,
+                    "matches": "[id=\"com.wm.dmall:id/iv_close\"]",
+                    "snapshotUrls": "https://i.gkd.li/import/12827375"
+                },
+                {
+                    "matchTime": 30000,
+                    "fastQuery": true,
+                    "matches": "[vid=\"advert_close\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/24303637"
+                }
+            ]
         }
     ]
 }

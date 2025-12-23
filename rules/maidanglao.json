@@ -1,0 +1,36 @@
+{
+    "id": "com.mcdonalds.gma.cn",
+    "name": "麦当劳",
+    "groups": [
+        {
+            "key": 1,
+            "name": "启动广告",
+            "activityIds": [
+                "com.mcdonalds.gma.cn.activity.LaunchActivity"
+            ],
+            "rules": [
+                {
+                    "matchTime": 10000,
+                    "fastQuery": true,
+                    "matches": "[vid=\"tv_skip\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/24303646"
+                }
+            ]
+        },
+        {
+            "key": 1,
+            "name": "启动弹窗",
+            "activityIds": [
+                "com.mcdonalds.gma.cn.activity.MainActivity"
+            ],
+            "rules": [
+                {
+                    "matchTime": 10000,
+                    "fastQuery": true,
+                    "matches": "[vid=\"iv_ad_close\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/24303687"
+                }
+            ]
+        }
+    ]
+}
