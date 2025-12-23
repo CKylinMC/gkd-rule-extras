@@ -27,9 +27,9 @@ npm run build
 <!--DYNAMIC-->
 ## 补充规则一览表
 
-![Version](https://img.shields.io/badge/2025--12--23-v22-blue.svg)  
+![Version](https://img.shields.io/badge/2025--12--23-v23-blue.svg)  
 
-**当前包含针对 27 个应用的总计 35 条规则。**    
+**当前包含针对 28 个应用的总计 36 条规则。**    
 | 应用 | 包名 | 规则 |
 | --- | --- | --- |
 | APKPure | com.apkpure.aegon | 启动广告 |
@@ -43,6 +43,7 @@ npm run build
 | 哔哩哔哩 | tv.danmaku.bili | 启动广告 |
 | Cellular-Z | make.more.r2d2.cellular_z | 启动广告 |
 | 刺猬猫阅读 | com.kuangxiangciweimao.novel | 启动弹窗（不稳定）-主页节日弹窗 |
+| 酷安 | com.coolapk.market | 启动广告（不稳定） |
 | 大众点评 | com.dianping.v1 | 启动弹窗-红包弹窗广告 |
 | 钉钉 | com.alibaba.android.rimet | 启动广告 |
 | 多点 | com.wm.dmall | 启动广告 |

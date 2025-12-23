@@ -3,7 +3,7 @@
   "name": "CKy 额外规则",
   "author": "CKylinMC",
   "supportUri": "https://github.com/CKylinMC/gkd-rule-extras",
-  "version": 22,
+  "version": 23,
   "categories": [
     {
       "key": 0,
@@ -251,6 +251,27 @@
               "matchTime": 10000,
               "matches": "FrameLayout > LinearLayout > FrameLayout > RelativeLayout > FrameLayout > RelativeLayout > RelativeLayout > ImageView[id=`com.kuangxiangciweimao.novel:id/imgclose`]",
               "snapshotUrls": "https://i.gkd.li/import/12836699"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.coolapk.market",
+      "name": "酷安",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告（不稳定）",
+          "activityIds": [
+            "com.coolapk.market.view.main.MainActivity"
+          ],
+          "rules": [
+            {
+              "fastQuery": true,
+              "matchTime": 10000,
+              "matches": "@ViewGroup < ViewGroup <3 ViewGroup < ViewGroup < FrameLayout < FrameLayout <3 FrameLayout < FrameLayout <2 FrameLayout <2 FrameLayout < FrameLayout < [vid=\"ad_container\"]",
+              "snapshotUrls": "https://i.gkd.li/i/24307722"
             }
           ]
         }
