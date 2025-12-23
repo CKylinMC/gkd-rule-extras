@@ -16,7 +16,7 @@ const mdList = [
 
 function createBadge(version = "latest") {
     const date = new Date();
-    const dateStr = `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')}`;
+    const dateStr = `${date.getFullYear()}--${(date.getMonth() + 1).toString().padStart(2, '0')}--${date.getDate().toString().padStart(2, '0')}`;
     return `![Version](https://img.shields.io/badge/${dateStr}-${version}-blue.svg)`;
 }
 
@@ -120,7 +120,7 @@ let rulesCount = rules.reduce((acc, app) => acc + app.groups.reduce((acc, group)
 let appsCount = rules.length;
 
 console.log('Done with', appsCount, 'apps and', rulesCount, 'rules!');
-mdPrefix.push('\n'+createBadge(`v${base.version}`)+'.  \n');
+mdPrefix.push('\n'+createBadge(`v${base.version}`)+'  \n');
 mdPrefix.push(`**当前包含针对 ${appsCount} 个应用的总计 ${rulesCount} 条规则。**    \n`);
 
 console.log('Updating README.md ...');
