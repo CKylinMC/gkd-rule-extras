@@ -27,9 +27,9 @@ npm run build
 <!--DYNAMIC-->
 ## 补充规则一览表
 
-![Version](https://img.shields.io/badge/2025--12--23-v23-blue.svg)  
+![Version](https://img.shields.io/badge/2025--12--23-v24-blue.svg)  
 
-**当前包含针对 28 个应用的总计 36 条规则。**    
+**当前包含针对 29 个应用的总计 39 条规则。**    
 | 应用 | 包名 | 规则 |
 | --- | --- | --- |
 | APKPure | com.apkpure.aegon | 启动广告 |
@@ -50,6 +50,7 @@ npm run build
 | 多点 | com.wm.dmall | 启动弹窗-红包弹窗广告 |
 | 多点 | com.wm.dmall | 启动弹窗-促销广告 |
 | 丰巢 | com.fcbox.hiveconsumer | 启动广告 |
+| 中国广电 | com.ai.obc.cbn.app | 启动广告 |
 | 京东金融 | com.jd.jrapp | 启动广告 |
 | KOOK | cn.kaiheila | 启动广告 |
 | 肯德基 | com.yek.android.kfc.activitys | 启动广告 |
