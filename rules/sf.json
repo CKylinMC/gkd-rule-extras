@@ -14,6 +14,12 @@
                     "fastQuery": true,
                     "matches": "[text^=\"跳过\"]",
                     "snapshotUrls": "https://i.gkd.li/i/15388797"
+                },
+                {
+                    "matchTime": 10000,
+                    "fastQuery": true,
+                    "matches": "[id=\"cj.mobile.wm.allmodules:id/wm_splash_jump_tv\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/24486435"
                 }
             ]
         },

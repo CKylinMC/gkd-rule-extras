@@ -14,6 +14,12 @@
                     "fastQuery": true,
                     "matches": "[text=\"跳过\"]",
                     "snapshotUrls": "https://i.gkd.li/import/12827258"
+                },
+                {
+                    "matchTime": 10000,
+                    "fastQuery": true,
+                    "matches": "@View <4 FrameLayout <2 FrameLayout < [vid=\"splash_container\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/24486535"
                 }
             ]
         }
