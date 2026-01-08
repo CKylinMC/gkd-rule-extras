@@ -27,9 +27,9 @@ npm run build
 <!--DYNAMIC-->
 ## 补充规则一览表
 
-![Version](https://img.shields.io/badge/2025--12--23-v24-blue.svg)  
+![Version](https://img.shields.io/badge/2026--01--08-v25-blue.svg)  
 
-**当前包含针对 29 个应用的总计 39 条规则。**    
+**当前包含针对 30 个应用的总计 42 条规则。**    
 | 应用 | 包名 | 规则 |
 | --- | --- | --- |
 | APKPure | com.apkpure.aegon | 启动广告 |
@@ -61,6 +61,7 @@ npm run build
 | 美团 | com.sankuai.meituan | 启动广告 |
 | 菠萝包轻小说 | com.sfacg | 启动广告 |
 | 菠萝包轻小说 | com.sfacg | 启动弹窗 |
+| 设备信息by流舟 | com.liuzh.deviceinfo | 启动广告 |
 | 淘宝 | com.taobao.taobao | 启动弹窗-弹窗红包广告 |
 | 微博 | com.sina.weibo | 启动广告 |
 | 小黑盒 | com.max.xiaoheihe | 次要启动弹窗 |

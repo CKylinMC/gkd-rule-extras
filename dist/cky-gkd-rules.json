@@ -3,7 +3,7 @@
   "name": "CKy 额外规则",
   "author": "CKylinMC",
   "supportUri": "https://github.com/CKylinMC/gkd-rule-extras",
-  "version": 24,
+  "version": 25,
   "categories": [
     {
       "key": 0,
@@ -230,6 +230,12 @@
               "fastQuery": true,
               "matches": "[text=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/import/12827258"
+            },
+            {
+              "matchTime": 10000,
+              "fastQuery": true,
+              "matches": "@View <4 FrameLayout <2 FrameLayout < [vid=\"splash_container\"]",
+              "snapshotUrls": "https://i.gkd.li/i/24486535"
             }
           ]
         }
@@ -595,6 +601,12 @@
               "fastQuery": true,
               "matches": "[text^=\"跳过\"]",
               "snapshotUrls": "https://i.gkd.li/i/15388797"
+            },
+            {
+              "matchTime": 10000,
+              "fastQuery": true,
+              "matches": "[id=\"cj.mobile.wm.allmodules:id/wm_splash_jump_tv\"]",
+              "snapshotUrls": "https://i.gkd.li/i/24486435"
             }
           ]
         },
@@ -610,6 +622,27 @@
               "fastQuery": true,
               "matches": "[vid=\"imgClose\"]",
               "snapshotUrls": "https://i.gkd.li/i/24303695"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.liuzh.deviceinfo",
+      "name": "设备信息by流舟",
+      "groups": [
+        {
+          "key": 1,
+          "name": "启动广告",
+          "activityIds": [
+            ".splash.SplashActivity"
+          ],
+          "rules": [
+            {
+              "matchTime": 10000,
+              "fastQuery": true,
+              "matches": "[text=\"跳过\"]",
+              "snapshotUrls": "https://i.gkd.li/i/24486507"
             }
           ]
         }
